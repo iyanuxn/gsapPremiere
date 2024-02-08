@@ -10,13 +10,10 @@ const App = () => {
           <h1 className="text-2xl">I am a logo</h1>
         </div>
       </nav>
-      <div className="bg-amber-400 w-72 overflow-auto px-20">
-        <span className="text-9xl text-nowrap ">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste
-          reprehenderit magni porro, sint inventore sed rerum ea assumenda
-          itaque?
-        </span>
-      </div>
+      <span className="text-9xl text-nowrap w-screen overflow-auto px-20">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste
+        reprehenderit magni porro, sint inventore sed rerum ea assumenda itaque?
+      </span>
     </div>
   );
 };
